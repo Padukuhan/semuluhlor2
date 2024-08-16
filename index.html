@@ -17,11 +17,13 @@
         <a href="#peta">Peta Digital</a>
     </nav>
     <section id="beranda">
-        <div class="overlay"></div>
+        <div class="overlay">
         <h1>Welcome to Padukuhan Semuluh Lor</h1>
         <p>Selamat datang di situs web desa kami. Desa kami adalah tempat yang indah dengan pemandangan alam yang memukau dan komunitas yang ramah. Kami senang Anda berkunjung dan berharap Anda menemukan informasi yang Anda butuhkan.</p>
-      </section>
+        </div>
+    </section>
     <section id="tentang">
+        <div class="skip">
         <h2>Tentang Desa</h2>
         <p>Semuluh Lor sebuah desa di Kecamatan Semanu, Kabupaten Gunungkidul, Provinsi Daerah Istimewa Yogyakarta, Indonesia. </p>
         <p>Berikut adalah beberapa informasi mengenai desa ini:</p>
@@ -32,7 +34,7 @@
         <p>Pedukuhan Semuluh Lor Terdiri dari 2 RT dan 1 RW</p>
         <h3>Demografi</h3>
         <p>Penduduk: Mayoritas penduduk di desa ini berprofesi sebagai petani, dengan beberapa juga bekerja di sektor perdagangan dan jasa.</p>
-         <div class="tentanglanjut">
+        <div class="tentanglanjut">
         <h3>Ekonomi</h3>
         <p>Pertanian: Komoditas utama yang dihasilkan adalah padi, jagung, kacang tanah, dan kelompok tani wanita di bidang kacang mete lainnya.</p>
         <p>Peternakan: Beberapa penduduk juga memelihara ternak seperti sapi, kambing, ayam, dan budidaya lele kolam terpal.</p>
@@ -45,6 +47,7 @@
         <h3>Pariwisata</h3>
         <p>Wisata Alam: Desa ini memiliki pemandangan alam yang indah dan juga Embung Jlamprong dan Goa Jlamprong yang cocok untuk wisatawan.</p>
         <p>Wisata Budaya: Wisatawan dapat menikmati kesenian dan budaya lokal yang masih sangat kental di desa ini.</p>
+        </div>
     </div>
     </section>
     <section id="peta">
@@ -115,14 +118,15 @@
                     <img src="img/balai.png" class="balai-icon" style="left: 66%; top: 37%;" onclick="showDetails('Balai Desa Semuluh Lor','','', 'img/balai.jpg')">
                     <img src="img/embung.png" class="embung-icon" style="left:83%; top: 8%;" onclick="showDetails('Tempat Wisata Embung Jlamprong','','', 'img/embungjlamprong.jpg')">
                     <img src="img/goa.png" class="embung-icon" style="left:95%; top: 25%;" onclick="showDetails('Tempat Wisata Goa Jlamprong','','', 'img/goajlamprong.jpg')">
-                    
+                    <img src="img/R (5).png" class="house-icon" style="left:58%; top: 74%;" onclick="showDetails('Makam','','', 'img/Makam.jpg')">
+
 
 
 
                     <!-- Add more house icons as needed -->
                 </div> 
             </section>  
-            <div id="details"></div>
+            <div id="details">
             
             <script>
                 function showDetails(name, houseNo, rtrw,  imgSrc) {
@@ -135,6 +139,7 @@
                 }
             </script>
 
+            </div>
 
 <footer class="footer">
     <div class="footer-content">
